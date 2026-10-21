@@ -43,7 +43,7 @@
 ## 快速开始
 
 ```bash
-git clone https://github.com/你的用户名/meme-radar.git
+git clone https://github.com/lilian200502406/geng-leida.git
 cd meme-radar
 
 # 无任何第三方依赖，直接跑
