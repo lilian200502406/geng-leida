@@ -1,0 +1,186 @@
+{
+  "runs": [
+    {
+      "date": "2026-10-21",
+      "startedAt": "2026-10-21T02:27:10.647Z",
+      "finishedAt": "2026-10-21T02:27:56.339Z",
+      "sources": [
+        {
+          "id": "douyin-hot",
+          "name": "抖音热榜",
+          "platform": "抖音",
+          "status": "ok",
+          "count": 50,
+          "added": 50,
+          "merged": 0
+        },
+        {
+          "id": "bilibili-popular",
+          "name": "B站热门",
+          "platform": "B站",
+          "status": "ok",
+          "count": 40,
+          "added": 40,
+          "merged": 0
+        },
+        {
+          "id": "bilibili-search",
+          "name": "B站搞笑定向",
+          "platform": "B站",
+          "status": "ok",
+          "count": 48,
+          "added": 45,
+          "merged": 2
+        },
+        {
+          "id": "zhihu-hot",
+          "name": "知乎热榜",
+          "platform": "知乎",
+          "status": "ok",
+          "count": 30,
+          "added": 30,
+          "merged": 0
+        },
+        {
+          "id": "toutiao-hot",
+          "name": "头条热榜",
+          "platform": "头条",
+          "status": "ok",
+          "count": 50,
+          "added": 50,
+          "merged": 0
+        },
+        {
+          "id": "baidu-hot",
+          "name": "百度热搜",
+          "platform": "百度",
+          "status": "ok",
+          "count": 51,
+          "added": 48,
+          "merged": 3
+        },
+        {
+          "id": "hitokoto-joke",
+          "name": "一言·段子库",
+          "platform": "一言",
+          "status": "ok",
+          "count": 9,
+          "added": 6,
+          "merged": 0
+        },
+        {
+          "id": "weibo-hot",
+          "name": "微博热搜",
+          "platform": "微博",
+          "status": "ok",
+          "count": 50,
+          "added": 44,
+          "merged": 5
+        },
+        {
+          "id": "reddit-funny",
+          "name": "Reddit r/funny",
+          "platform": "Reddit",
+          "status": "error",
+          "count": 0,
+          "error": "fetch failed"
+        }
+      ],
+      "newItems": 313,
+      "updatedItems": 3,
+      "totalItems": 270,
+      "day": "2026-10-21"
+    },
+    {
+      "date": "2026-10-21",
+      "startedAt": "2026-10-21T02:25:24.545Z",
+      "finishedAt": "2026-10-21T02:26:14.040Z",
+      "sources": [
+        {
+          "id": "douyin-hot",
+          "name": "抖音热榜",
+          "platform": "抖音",
+          "status": "ok",
+          "count": 50,
+          "added": 50,
+          "merged": 0
+        },
+        {
+          "id": "bilibili-popular",
+          "name": "B站热门",
+          "platform": "B站",
+          "status": "ok",
+          "count": 40,
+          "added": 40,
+          "merged": 0
+        },
+        {
+          "id": "bilibili-search",
+          "name": "B站搞笑定向",
+          "platform": "B站",
+          "status": "ok",
+          "count": 48,
+          "added": 40,
+          "merged": 0
+        },
+        {
+          "id": "zhihu-hot",
+          "name": "知乎热榜",
+          "platform": "知乎",
+          "status": "ok",
+          "count": 30,
+          "added": 30,
+          "merged": 0
+        },
+        {
+          "id": "toutiao-hot",
+          "name": "头条热榜",
+          "platform": "头条",
+          "status": "ok",
+          "count": 50,
+          "added": 50,
+          "merged": 0
+        },
+        {
+          "id": "baidu-hot",
+          "name": "百度热搜",
+          "platform": "百度",
+          "status": "ok",
+          "count": 51,
+          "added": 48,
+          "merged": 3
+        },
+        {
+          "id": "hitokoto-joke",
+          "name": "一言·段子库",
+          "platform": "一言",
+          "status": "ok",
+          "count": 6,
+          "added": 4,
+          "merged": 0
+        },
+        {
+          "id": "weibo-hot",
+          "name": "微博热搜",
+          "platform": "微博",
+          "status": "ok",
+          "count": 50,
+          "added": 44,
+          "merged": 5
+        },
+        {
+          "id": "reddit-funny",
+          "name": "Reddit r/funny",
+          "platform": "Reddit",
+          "status": "error",
+          "count": 0,
+          "error": "fetch failed"
+        }
+      ],
+      "newItems": 306,
+      "updatedItems": 7,
+      "totalItems": 263,
+      "day": "2026-10-21"
+    }
+  ]
+}

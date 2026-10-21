@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "note": "采集源配置。enabled=false 的源会自动跳过；weight 影响热度排序；keywords 用于视频平台的关键词定向搜索。",
+  "sources": [
+    {
+      "id": "douyin-hot",
+      "name": "抖音热榜",
+      "platform": "抖音",
+      "type": "hotword",
+      "enabled": true,
+      "weight": 1.45,
+      "home": "https://www.douyin.com/hot"
+    },
+    {
+      "id": "bilibili-popular",
+      "name": "B站热门",
+      "platform": "B站",
+      "type": "video",
+      "enabled": true,
+      "weight": 1.3,
+      "home": "https://www.bilibili.com/v/popular/all"
+    },
+    {
+      "id": "bilibili-search",
+      "name": "B站搞笑定向",
+      "platform": "B站",
+      "type": "video",
+      "enabled": true,
+      "weight": 1.2,
+      "home": "https://search.bilibili.com/",
+      "keywords": ["搞笑", "爆笑", "沙雕", "段子", "搞笑视频", "整活", "抽象", "喜剧小品"],
+      "maxPerKeyword": 6
+    },
+    {
+      "id": "zhihu-hot",
+      "name": "知乎热榜",
+      "platform": "知乎",
+      "type": "hotword",
+      "enabled": true,
+      "weight": 1.15,
+      "home": "https://www.zhihu.com/hot"
+    },
+    {
+      "id": "toutiao-hot",
+      "name": "头条热榜",
+      "platform": "头条",
+      "type": "hotword",
+      "enabled": true,
+      "weight": 1.05,
+      "home": "https://www.toutiao.com/"
+    },
+    {
+      "id": "baidu-hot",
+      "name": "百度热搜",
+      "platform": "百度",
+      "type": "hotword",
+      "enabled": true,
+      "weight": 1.0,
+      "home": "https://top.baidu.com/board"
+    },
+    {
+      "id": "hitokoto-joke",
+      "name": "一言·段子库",
+      "platform": "一言",
+      "type": "text",
+      "enabled": true,
+      "weight": 0.8,
+      "home": "https://hitokoto.cn/",
+      "categories": ["k", "d"]
+    },
+    {
+      "id": "weibo-hot",
+      "name": "微博热搜",
+      "platform": "微博",
+      "type": "hotword",
+      "enabled": true,
+      "weight": 1.1,
+      "home": "https://s.weibo.com/top/summary"
+    },
+    {
+      "id": "reddit-funny",
+      "name": "Reddit r/funny",
+      "platform": "Reddit",
+      "type": "video",
+      "enabled": true,
+      "weight": 1.0,
+      "home": "https://www.reddit.com/r/funny/",
+      "note": "部分网络环境下不可达，失败会自动跳过并记录在采集日志中"
+    }
+  ],
+  "memeWords": [
+    "梗", "笑", "笑死", "爆笑", "搞笑", "沙雕", "抽象", "段子", "喜剧", "小品", "整活",
+    "离谱", "无语", "呵呵", "笑不活", "名场面", "吐槽", "反转", "社死", "尴尬", "玩梗",
+    "脱口秀", "相声", "幽默", "翻车", "破防", "笑喷", "搞笑视频", "哈哈哈", "笑抽"
+  ]
+}

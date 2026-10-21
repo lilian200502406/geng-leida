@@ -1,0 +1,7 @@
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
+.shot*.png
+.gen_test.html
+.index_backup.html

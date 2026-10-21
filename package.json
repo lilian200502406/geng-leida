@@ -1,0 +1,26 @@
+{
+  "name": "meme-radar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "全网爆笑梗 · 段子剧本 · 搞笑创意 每日采集站",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "collect": "node scripts/collect.mjs",
+    "build": "node scripts/build.mjs",
+    "update": "node scripts/collect.mjs && node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "keywords": [
+    "meme",
+    "joke",
+    "comedy",
+    "crawler",
+    "douyin",
+    "bilibili",
+    "zhihu"
+  ],
+  "license": "MIT"
+}
