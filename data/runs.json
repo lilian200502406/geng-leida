@@ -1,6 +1,97 @@
 {
   "runs": [
     {
+      "date": "2026-11-26",
+      "startedAt": "2026-11-26T09:52:31.456Z",
+      "finishedAt": "2026-11-26T09:52:50.528Z",
+      "sources": [
+        {
+          "id": "douyin-hot",
+          "name": "抖音热榜",
+          "platform": "抖音",
+          "status": "ok",
+          "count": 50,
+          "added": 42,
+          "merged": 0
+        },
+        {
+          "id": "bilibili-popular",
+          "name": "B站热门",
+          "platform": "B站",
+          "status": "ok",
+          "count": 40,
+          "added": 31,
+          "merged": 0
+        },
+        {
+          "id": "bilibili-search",
+          "name": "B站搞笑定向",
+          "platform": "B站",
+          "status": "ok",
+          "count": 48,
+          "added": 46,
+          "merged": 0
+        },
+        {
+          "id": "zhihu-hot",
+          "name": "知乎热榜",
+          "platform": "知乎",
+          "status": "ok",
+          "count": 30,
+          "added": 30,
+          "merged": 0
+        },
+        {
+          "id": "toutiao-hot",
+          "name": "头条热榜",
+          "platform": "头条",
+          "status": "ok",
+          "count": 50,
+          "added": 49,
+          "merged": 1
+        },
+        {
+          "id": "baidu-hot",
+          "name": "百度热搜",
+          "platform": "百度",
+          "status": "ok",
+          "count": 51,
+          "added": 50,
+          "merged": 1
+        },
+        {
+          "id": "hitokoto-joke",
+          "name": "一言·段子库",
+          "platform": "一言",
+          "status": "ok",
+          "count": 16,
+          "added": 3,
+          "merged": 0
+        },
+        {
+          "id": "weibo-hot",
+          "name": "微博热搜",
+          "platform": "微博",
+          "status": "ok",
+          "count": 50,
+          "added": 48,
+          "merged": 1
+        },
+        {
+          "id": "reddit-funny",
+          "name": "Reddit r/funny",
+          "platform": "Reddit",
+          "status": "error",
+          "count": 0,
+          "error": "HTTP 403"
+        }
+      ],
+      "newItems": 299,
+      "updatedItems": 30,
+      "totalItems": 4000,
+      "day": "2026-11-26"
+    },
+    {
       "date": "2026-11-25",
       "startedAt": "2026-11-25T10:10:54.514Z",
       "finishedAt": "2026-11-25T10:11:12.838Z",
